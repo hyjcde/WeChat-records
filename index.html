@@ -22,7 +22,7 @@
             window.location.href = "猪猪宝.html";
           }, 3000); // Simulate a delay for the large file loading
         } else {
-          alert("验证码错误，请重新输入！");
+          alert("不对哦，请重新输入");
         }
       }
 
@@ -92,14 +92,14 @@
       <input
         id="verificationCode"
         type="password"
-        placeholder="请输入验证码"
+        placeholder="属于我们的数字"
         class="verification-input text-center text-lg p-4 border-2 rounded-full w-full mb-8"
       />
       <button
         onclick="validateCode()"
         class="verify-btn px-8 py-4 rounded-full w-full"
       >
-        通过验证查看聊天记录
+        打开我们的聊天记录
       </button>
     </div>
     <div class="container" id="loading">
